@@ -3,7 +3,7 @@
 ./configure \
     --prefix=/usr \
     --localstatedir=/var \
-    --sysconfdir=/etc
-
+    --sysconfdir=/etc \
+    --disable-nls
 make
 make DESTDIR="$1" install

@@ -4,6 +4,7 @@
     --sysconfdir=/etc \
     --prefix=/usr \
     --disable-nls \
+    --localstatedir=/var \
     --enable-vala=no \
     --enable-gtk-doc-html=no \
     --enable-introspection=no
