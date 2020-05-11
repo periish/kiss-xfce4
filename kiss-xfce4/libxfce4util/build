@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+./configure \
+    --sysconfdir=/etc \
+    --prefix=/usr \
+    --disable-nls \
+    --enable-vala=no \
+    --enable-gtk-doc-html=no \
+    --enable-introspection=no
+
+make
+make DESTDIR="$1" install
