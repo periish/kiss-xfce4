@@ -4,8 +4,9 @@
     --prefix=/usr \
     --localstatedir=/var \
     --sysconfdir=/etc \
+    --mandir=/usr/share/man \
     --disable-nls \
-     --enable-gtk3
+    --enable-gtk3
 
 make
 make DESTDIR="$1" install

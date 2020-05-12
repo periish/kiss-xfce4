@@ -1,10 +1,1 @@
-#!/bin/sh -e
-
-./configure \
-    --prefix=/usr \
-    --localstatedir=/var \
-    --sysconfdir=/etc \
-    --disable-nls
-
-make
-make DESTDIR="$1" install
+/home/eris/src/kiss-xfce4/kiss-xfce4/xfconf/build
