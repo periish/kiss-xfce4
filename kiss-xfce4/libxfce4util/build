@@ -1,13 +1,1 @@
-#!/bin/sh -e
-
-./configure \
-    --sysconfdir=/etc \
-    --prefix=/usr \
-    --disable-nls \
-    --localstatedir=/var \
-    --enable-vala=no \
-    --enable-gtk-doc-html=no \
-    --enable-introspection=no
-
-make
-make DESTDIR="$1" install
+../xfconf/build
