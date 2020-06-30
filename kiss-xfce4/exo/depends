@@ -32,5 +32,5 @@ libxfce4util
 libxshmfence
 mesa
 pango
-perl-uri
+perl              make
 pixman
