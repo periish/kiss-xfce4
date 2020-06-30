@@ -15,8 +15,6 @@
     cd ..
 }
 
-sed -i "s/if \`\$INTLTOOL_PERL -e/if test -z \`\$INTLTOOL_PERL -e/g" configure
-
 ./configure \
     --prefix=/usr \
     --localstatedir=/var \
